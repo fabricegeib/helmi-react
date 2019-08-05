@@ -9,7 +9,7 @@ body {
   height: calc(100vh - 48px);
   padding: 24px;
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between
@@ -31,6 +31,7 @@ body {
   color: white;
 
   font-size: 64px;
+  font-size: 4vw;
   margin-top: 48px;
 }
 
@@ -44,6 +45,10 @@ body {
 
 .App-section {
   font-size: 40px;
+  font-size: 2vw;
+}
+.App-section p:nth-of-type(1) {
+  margin-bottom: 24px;
 }
 .App-section p:nth-of-type(2) {
   font-style: italic;
@@ -60,12 +65,39 @@ body {
   color: #7d7d7d;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1200px) {
   .App-header {
-    font-size: 28px;
+    font-size: 4vw;
   }
   .App-section {
-    font-size: 18px;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .App-header {
+    font-size: 6vw;
+  }
+  .App-section {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .App-header {
+    font-size: 6vw;
+  }
+  .App-section {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .App-header {
+    font-size: 6vw;
+  }
+  .App-section {
+    font-size: 5vw;
   }
 }
 
