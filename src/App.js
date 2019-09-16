@@ -4,12 +4,15 @@ import './reset.css';
 import './App.css';
 import './font.css'
 
+const name = 'Helmi Domínguez Vanha-aho';
+const year = (new Date().getFullYear());
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Hi! My name is <span>Helmi Domínguez.</span>
+          Hi! My name is <span>{name}</span>,
         </p>
         <p>
           I'm a multicultural UI-UX designer currently based in Helsinki.
@@ -25,7 +28,7 @@ function App() {
         <p>More about me</p>
       </section>
       <footer className="App-footer">
-        <p>© Helmi Domínguez, 2019</p>
+        <p>© {name}, {year}</p>
       </footer>
     </div>
   );
