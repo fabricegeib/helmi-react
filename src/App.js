@@ -25,7 +25,7 @@ function App() {
         <p>
           Do not hesitate to drop me a <a className="App-link" href="mailto:hello@helmi.im" target="_blank" rel="noopener noreferrer">message!</a>
         </p>
-        <p>More about me</p>
+        <p><a className="App-link" href="https://linkedin.com/in/helmidv" target="_blank" rel="noopener noreferrer">More about me</a></p>
       </section>
       <footer className="App-footer">
         <p>© {name}, {year}</p>
