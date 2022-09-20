@@ -1,4 +1,21 @@
+# helmi.im
+
+## Preview
+
+![preview helmi.im](preview.png)
+
+<!-- ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) -->
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Add .env
+
+```
+PORT=3002
+```
+
+[http://localhost:3002](http://localhost:3002)
 
 ## Available Scripts
 
