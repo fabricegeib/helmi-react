@@ -1,11 +1,12 @@
 # helmi.im
 
-## Preview
-
 ![preview helmi.im](preview.png)
 
 <!-- ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) -->
 
+[Github link](https://github.com/fabricegeib/helmi.im)
+
+[vscode.dev link](https://vscode.dev/github/fabricegeib/helmi.im/blob/2b20552bd8dd5a78c570895bc61034ebffe613bb)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -15,8 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 PORT=3002
 ```
 
-[http://localhost:3002](http://localhost:3002)
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -24,7 +23,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) or [http://localhost:3002](http://localhost:3002) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
